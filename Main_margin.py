@@ -73,12 +73,12 @@ SMTP_PORT = 465
 context = ssl.create_default_context()
 
 ### Sender details
-sender = "svbetmailsender@gmail.com"
+sender = "mailsender@gmail.com"
 password = "hidden"
 #password = input("Type your password and press enter: ")
 
 ### Recepient details and Text message to type
-recipient = "ravinayag@gmail.com, svbetmailsender@gmail.com"
+recipient = "ravinayag@gmail.com, mailsender@gmail.com"
 message = 'Hello,  \n Here is the Margin value is less than < -0.25 and No Book_id'
 
 
@@ -95,7 +95,7 @@ def eml():
     msg = MIMEMultipart()
     msg['Subject'] = 'Python email Test for Alberto'
     msg['To'] = recipient
-    msg['From'] = 'svbetmailsender@gmail.com'
+    msg['From'] = 'mailsender@gmail.com'
 
 
     ### for Text Message
