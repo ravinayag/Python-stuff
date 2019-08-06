@@ -138,5 +138,5 @@ if len(mdf) > 0:
     tgsend()
     print ("Telegram Message sent ")
 else :
-    print("No email Sent")
-    print("No Telegram Message sent")
+    print("No email/Telegram Sent")
+    #print("No Telegram Message sent")
